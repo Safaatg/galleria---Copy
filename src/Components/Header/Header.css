@@ -1,0 +1,49 @@
+.Header {
+  padding-left: 240px;
+  padding-right: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  gap: 100px;
+}
+
+.Line {
+  width: 75%;
+  position: absolute;
+  height: 0.0625rem;
+  background: #e5e5e5;
+  top: 100px;
+}
+
+h3 {
+  display: inline;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.6875rem;
+  text-align: right;
+  letter-spacing: 1.92857px;
+  color: #7d7d7d;
+}
+
+@media only screen and (max-width: 400px) {
+  .Header {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Logo {
+    width: 120px;
+  }
+  h3 {
+    font-size: 8px;
+  }
+}
